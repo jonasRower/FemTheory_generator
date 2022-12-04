@@ -1,0 +1,50 @@
+td, p , button{
+    position: relative;
+}
+
+.ZIndex {
+    z-index: 1;
+    background-color: white;
+    color: white;
+}
+
+button {
+    z-index: 1;
+}
+
+.znaky {
+    z-index: -1;
+    position: relative;
+}
+
+/*
+iframe{
+    display: block; 
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+}
+*/
+
+iframe{
+    display: block; 
+    top:0px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.divIframe {
+    border: 0px;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+    }
+
+.prekryrti {
+    position: absolute; 
+}
+

@@ -1,0 +1,25 @@
+
+.sloupce2 {
+    display: grid;
+    grid-template-columns: [first] auto [line2] 100px [end];
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.s1_2 { grid-area: 1 / 1 / 2 / 2; }
+.s2_2 { grid-area: 1 / 2 / 2 / 3; }
+
+.s1_2 {
+    background-color: hotpink;
+    margin-left:10px;
+}
+
+.s2_2 {
+    background-color: khaki;
+}
+
+
+
+
+

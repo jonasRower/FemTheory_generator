@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+    <link rel="stylesheet" href="css/sl2Css.css">
+    <link rel="stylesheet" href="css/sl3Css.css">
+    <link rel="stylesheet" href="css/sl4Css.css">
+
+    <script type="text/javascript" src="https://www.hostmath.com/Math/MathJax.js?config=OK"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML-full"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script type="text/javascript" src="js/scriptHighlight.js"></script>
+    <script type="text/javascript" src="js/scriptHide.js"></script>
+    
+    <div id="obr">
+        <p style="top:200px;">Určeme přibližně průhybovou čáru na nosníku zobrazeném na obrázku níže:</p>
+        <div class="sloupce4">
+            <div class="s1_4">
+            </div>
+  
+            <div class="s3_4">
+            </div>
+            <div class="s4_4">
+                <p style="top:185px;"></p>
+            </div>
+        </div>
+
+
+    <div id="p1-1">
+    <p style="top:170px;">Předpokládejme průhyb nosníku w<sub>(1x)</sub> jako lineární kombinaci Taylorovské báze:</p>
+    <div class="sloupce3">
+        <div class="s1_3">
+        </div>
+        <div class="s2_3">
+            <table>
+                <tr>
+                    <td style="top:155px; width:10px" id="exp-1_col-1">
+                        \[
+                            w_{(x)} = 
+                        \]
+                    </td>
+                    <td style="top:155px; width:50px" id="exp-1_col-2">
+                        \[
+                            a_0
+                        \]
+                    </td>
+                    <td style="top:155px; width:50px" id="exp-1_col-3">
+                        \[
+                            + a_1 x
+                        \]
+                    </td>
+                    <td style="top:155px; width:50px" id="exp-1_col-4">
+                        \[
+                            + a_2 x^2 
+                        \]
+                    </td>
+                    <td style="top:155px; width:50px" id="exp-1_col-5">
+                        \[
+                            + a_3 x^3 
+                        \]
+                    </td>
+                    <td style="top:155px; width:50px" id="exp-1_col-6">
+                        \[
+                            + a_4 x^4
+                        \]
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="s3_3">
+            <p style="top:155px;">(1)</p>
+        </div>
+    </div>
+
+    <div id="p1-2">
+        <p style="top:140px;">Pootočení a svislý posun ve vetknutí je nulový, tudíž okrajové podmínky jsou</p>
+    <div class="sloupce4">
+    <div class="s1_4">
+        </div>
+        <div class="s2_4">
+           <p style="top:125px;"               id="exp-2">
+               \[
+               w_{(x=0)} = 0
+               \]
+           </p>
+       </div>
+       <div class="s3_4">
+       </div>
+       <div class="s4_4">
+           <p style="top:125px;">(2)</p>
+       </div>
+   </div>
+
+    <div id="p1-3">
+        <p style="top:110px;"> </p>
+    <div class="sloupce4">
+    <div class="s1_4">
+        </div>
+        <div class="s2_4">
+           <p style="top:95px;"               id="exp-3">
+               \[
+               w_{(x=0)} = 0
+               \]
+           </p>
+       </div>
+       <div class="s3_4">
+       </div>
+       <div class="s4_4">
+           <p style="top:95px;">(3)</p>
+       </div>
+   </div>
+
+    <div id="p1-4">
+        <p style="top:80px;">Toho bude splněno, pokud:</p>
+    <div class="sloupce4">
+    <div class="s1_4">
+        </div>
+        <div class="s2_4">
+           <p style="top:65px;"              id="exp-4">
+               \[
+               a_0 = 0
+               \]
+           </p>
+       </div>
+       <div class="s3_4">
+       </div>
+       <div class="s4_4">
+           <p style="top:65px;">(4)</p>
+       </div>
+   </div>
+
+    <div id="p1-5">
+        <p style="top:50px;"> </p>
+    <div class="sloupce4">
+    <div class="s1_4">
+        </div>
+        <div class="s2_4">
+           <p style="top:35px;"              id="exp-5">
+               \[
+               a_1 = 0
+               \]
+           </p>
+       </div>
+       <div class="s3_4">
+       </div>
+       <div class="s4_4">
+           <p style="top:35px;">(5)</p>
+       </div>
+   </div>
+
+    <div id="p1-6">
+<p style="top:20px;">Dosazením do (1) redukujeme funkci průhybu na tvar:</p>
+<button style="top:20px; height:20px" id="skryj-2+3+4+5" onclick='skryj("2+3+4+5")'>zobraz podrobnosti</button>
+<div class="sloupce3">
+    <div class="s1_3">
+    </div>
+    <div class="s2_3">
+        <table>
+            <tr>
+                <td style="top:20px; width:10px" id="exp-6_col-1">
+                    \[
+                        w_{(x)}
+                    \]
+                </td>
+                <td style="top:20px; width:50px" id="exp-6_col-2">
+                    \[
+                        
+                    \]
+                </td>
+                <td style="top:20px; width:50px" id="exp-6_col-3">
+                    \[
+                        
+                    \]
+                </td>
+                <td style="top:20px; width:50px" id="exp-6_col-4">
+                    \[
+                         a_2 x^2
+                    \]
+                </td>
+                <td style="top:20px; width:50px" id="exp-6_col-5">
+                    \[
+                        + a_3 x^3
+                    \]
+                </td>
+                <td style="top:20px; width:50px" id="exp-6_col-6">
+                    \[
+                        + a_4 x^4
+                    \]
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="s3_3">
+        <p style="top:20px;">(6)</p>
+    </div>
+</div>
+
+    <div id="p1-7">
+<p style="top:5px;">Po zderivování obdržíme:</p>
+<div class="sloupce3">
+    <div class="s1_3">
+    </div>
+    <div class="s2_3">
+        <table>
+            <tr>
+                <td style="top:-10px; width:10px" id="exp-7_col-1">
+                    \[
+                        w'_{(x)}
+                    \]
+                </td>
+                <td style="top:-10px; width:50px" id="exp-7_col-2">
+                    \[
+                        
+                    \]
+                </td>
+                <td style="top:-10px; width:50px" id="exp-7_col-3">
+                    \[
+                        
+                    \]
+                </td>
+                <td style="top:-10px; width:50px" id="exp-7_col-4">
+                    \[
+                         2a_2 x
+                    \]
+                </td>
+                <td style="top:-10px; width:50px" id="exp-7_col-5">
+                    \[
+                        + 3a_3 x^2
+                    \]
+                </td>
+                <td style="top:-10px; width:50px" id="exp-7_col-6">
+                    \[
+                        + 4a_4 x^3
+                    \]
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="s3_3">
+        <p style="top:-10px;">(7)</p>
+    </div>
+</div>
+
+    <div id="p1-8">
+    <p style="top:-25px;"> </p>
+    <div class="sloupce3">
+        <div class="s1_3">
+        </div>
+        <div class="s2_3">
+            <table>
+                <tr>
+                    <td style="top:-40px; width:10px" id="exp-8_col-1">
+                        \[
+                            w''_{(x)}
+                        \]
+                    </td>
+                    <td style="top:-40px; width:50px" id="exp-8_col-2">
+                        \[
+                            
+                        \]
+                    </td>
+                    <td style="top:-40px; width:50px" id="exp-8_col-3">
+                        \[
+                            
+                        \]
+                    </td>
+                    <td style="top:-40px; width:50px" id="exp-8_col-4">
+                        \[
+                            2a_2
+                        \]
+                    </td>
+                    <td style="top:-40px; width:50px" id="exp-8_col-5">
+                        \[
+                            + 6a_3 x
+                        \]
+                    </td>
+                    <td style="top:-40px; width:50px" id="exp-8_col-6">
+                        \[
+                            + 12a_4 x^2
+                        \]
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="s3_3">
+            <p style="top:-40px;">(8)</p>
+        </div>
+    </div>
+
+    <div id="p1-9">
+    <p style="top:-55px;">Deformační energii U určíme ze vztahu:</p>
+    <div class="sloupce3">
+        <div class="s1_3">
+        </div>
+        <div class="s2_3">
+            <table>
+                <tr>
+                    <td style="top:-70px; width:10px" id="exp-9_col-1">
+                        \[
+                            U=\int_{0}^{L}\frac{M_0^2(x)}{2EI}=
+                        \]
+                    </td>
+                    <td style="top:-70px; width:10px" id="exp-9_col-2">
+                        \[
+                            \frac{EI}{2}
+                        \]
+                    </td>
+                    <td style="top:-70px; width:10px" id="exp-9_col-3">
+                        \[
+                            \int_{0}^{L}
+                        \]
+                    </td>
+                    <td style="top:-70px; width:10px" id="exp-9_col-4">
+                        \[
+                            (
+                        \]
+                    </td>
+                    <td style="top:-70px; width:10px" id="exp-9_col-5">
+                        \[
+                            \ddot{w}_{(x)}
+                        \]
+                    </td>
+                    <td style="top:-70px; width:10px" id="exp-9_col-6">
+                        \[
+                            )^2
+                        \]
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="s3_3">
+            <p style="top:-70px;">(9)</p>
+        </div>
+    </div>
+
+
+    <div id="p1-10">
+<p style="top:-85px;">Po dosazení (9) obdržíme:</p>
+<div class="sloupce3">
+    <div class="s1_3">
+    </div>
+    <div class="s2_3">
+        <table>
+            <tr>
+                <td style="top:-100px; width:10px" id="exp-10_col-1">
+                    \[
+                        U = 
+                    \]
+                </td>
+                <td style="top:-100px; width:10px" id="exp-10_col-2">
+                    \[
+                        \frac{EI}{2}
+                    \]
+                </td>
+                <td style="top:-100px; width:10px" id="exp-10_col-3">
+                    \[
+                        \int_{0}^{L}
+                    \]
+                </td>
+                <td style="top:-100px; width:10px" id="exp-10_col-4">
+                    \[
+                        (
+                    \]
+                </td>
+                <td style="top:-100px; width:10px" id="exp-10_col-5">
+                    \[
+                        2a_2
+                    \]
+                </td>
+                <td style="top:-100px; width:10px" id="exp-10_col-6">
+                    \[
+                        + 6a_3 x
+                    \]
+                </td>
+                <td style="top:-100px; width:10px" id="exp-10_col-7">
+                    \[
+                        + 12a_4 x^2
+                    \]
+                </td>
+                <td style="top:-100px; width:10px" id="exp-10_col-8">
+                    \[
+                        )^2
+                    \]
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="s3_3">
+        <p style="top:-100px;">(10)</p>
+    </div>
+</div>
+
+    <div id="p1-11">
+        <p style="top:-115px;">Pro umocnění trojčlenu můžeme použít vzorec:</p>
+    <div class="sloupce4">
+    <div class="s1_4">
+        </div>
+        <div class="s2_4">
+           <p style="top:-130px;" id="exp-11">
+               \[
+               \lgroup a + b + c \rgroup ^{2} = a^2 + b^2 + c^2 + 2ab + 2ac + 2bc
+               \]
+           </p>
+       </div>
+       <div class="s3_4">
+       </div>
+       <div class="s4_4">
+           <p style="top:-130px;">(11)</p>
+       </div>
+   </div>
+
+    <div id="p-12">
+<p>Čímž funkci pod integrálem můžeme převést na tvar:</p>
+<button style="height:20px" id="skryj-11" onclick='skryj("11")'>zobraz podrobnosti</button>
+<div class="sloupce3">
+    <div class="s1_3">
+    </div>
+    <div class="s2_3">
+        <table>
+            <tr>
+                <td style="width:10px" id="exp-12_col-1">
+                    \[
+                        U = 
+                    \]
+                </td>
+                <td style="width:10px" id="exp-12_col-2">
+                    \[
+                        \frac{EI}{2}
+                    \]
+                </td>
+                <td style="width:10px" id="exp-12_col-3">
+                    \[
+                        \int_{0}^{L}
+                    \]
+                </td>
+                <td style="width:10px" id="exp-12_col-4">
+                    \[
+                        (
+                    \]
+                </td>
+                <td style="width:10px" id="exp-12_col-5">
+                    \[
+                        4a_2^2
+                    \]
+                </td>
+                <td style="width:10px" id="exp-12_col-6">
+                    \[
+                        + 36a_3^2 x^2
+                    \]
+                </td>
+                <td style="width:10px" id="exp-12_col-7">
+                    \[
+                        + 144a_4^2 x^4
+                    \]
+                </td>
+                <td style="width:10px" id="exp-12_col-8">
+                    \[
+                        + 24a_2a_3 x
+                    \]
+                </td>
+                <td style="width:10px" id="exp-12_col-9">
+                    \[
+                        + 48a_2a_4 x^2
+                    \]
+                </td>
+                <td style="width:10px" id="exp-12_col-10">
+                    \[
+                        + 144a_3a_4x^3
+                    \]
+                </td>
+                <td style="width:10px" id="exp-12_col-11">
+                    \[
+                        )
+                    \]
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="s3_3">
+        <p>(12)</p>
+    </div>
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

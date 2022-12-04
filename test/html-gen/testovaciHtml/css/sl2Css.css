@@ -1,0 +1,51 @@
+
+.sloupce2 {
+    display: grid;
+    grid-template-columns: [first] auto [line2] 100px [end];
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.s1_2 { grid-area: 1 / 1 / 2 / 2; }
+.s2_2 { grid-area: 1 / 2 / 2 / 3; }
+
+.s1_2 {
+    background-color: hotpink;
+    margin-left:10px;
+}
+
+.s2_2 {
+    background-color: khaki;
+}
+
+td, p , button{
+    position: relative;
+}
+
+.ZIndex {
+    z-index: 1;
+    background-color: white;
+    color: white;
+}
+
+button {
+    z-index: 1;
+}
+
+.znaky {
+    z-index: -1;
+    position: static;
+}
+
+.divZnaky{
+    position: relative;
+}
+
+#divexp-2_col-4{
+    left:128px;
+    top:409px;
+}
+
+
+

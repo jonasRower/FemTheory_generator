@@ -1,0 +1,38 @@
+<html>
+
+<head>
+	<style>
+		.parent * {
+			display: block;
+			border: 2px solid lightgrey;
+			color: grey;
+			padding: 5px;
+			margin: 15px;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/
+				jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+            $('div p').each(function () {
+                console.log($(this).attr('id'));
+            });
+		});
+	</script>
+
+</head>
+
+<body>
+
+	<div class="parent" style="width:500px;">This is the current element !!!
+		<p id="1aa">This is first children
+			<span>This is grandchild</span>
+		</p>
+		<p id="2aa">This is Second children
+			<span>This is grandchild</span>
+		</p>
+	</div>
+
+</body>
+
+</html>
